@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+.scrollphoto{
+  overflow: auto;
+  white-space: nowrap;
+}
+.photo{
+  height: 400px;
+  width: auto;
+  padding: 10px;
+}
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(15, 119, 24, 0.425); 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(15, 119, 23); 
+}
+.scrollphoto{
+  margin-top: 100px;
+}
+h1{
+  padding: 20px;
+  text-align: center;
+}
